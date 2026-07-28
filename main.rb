@@ -1,3 +1,5 @@
+require_relative "lib/compare"
+
 words = File.open("lib/10000-words.txt")
 true_word = ""
 word_length = false
@@ -13,3 +15,7 @@ until word_length == true do
     next
   end
 end
+
+p true_word
+
+Compare.compare(true_word)
