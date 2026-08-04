@@ -1,6 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    json (2.21.2)
     msgpack (1.8.4)
 
 PLATFORMS
@@ -8,6 +9,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  json (~> 2.21)
   msgpack (~> 1.8)
 
 BUNDLED WITH
